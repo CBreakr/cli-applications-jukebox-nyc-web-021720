@@ -46,7 +46,7 @@ end
 
 #
 def play_prompt
-  puts ""
+  puts "Please enter a song name or number:"
 end
 
 #
