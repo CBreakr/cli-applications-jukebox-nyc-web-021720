@@ -70,6 +70,7 @@ end
 #
 def find_song(input, songs)
   number = input.to_i
+  puts "number: #{number}"
   if number then
     find_song_by_number(number, songs)
   else
