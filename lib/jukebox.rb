@@ -1,7 +1,13 @@
 
 #
 def run(songs)
+  greet_user
   
+end
+
+#
+def greet_user
+  puts "Please enter a command:"
 end
 
 #
