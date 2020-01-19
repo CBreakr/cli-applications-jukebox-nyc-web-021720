@@ -52,6 +52,16 @@ end
 
 #
 def process_play_input(input, songs)
+  song = find_song
+  if song then
+    play_song(song)
+  else
+    invalid_play_input
+  end
+end
+
+#
+def find_song(input, songs)
   
 end
 
