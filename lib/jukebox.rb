@@ -41,7 +41,8 @@ end
 
 #
 def play(songs)
-  puts "Please enter a song name or number:"
+  play_prompt
+  process_play_input(get_user_input, songs)
 end
 
 #
