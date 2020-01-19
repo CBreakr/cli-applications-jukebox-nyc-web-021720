@@ -16,6 +16,11 @@ def get_user_input
 end
 
 #
+def process_user_input(input)
+  
+end  
+
+#
 def help
   puts  "I accept the following commands:"
   puts "- help : displays this help message"
