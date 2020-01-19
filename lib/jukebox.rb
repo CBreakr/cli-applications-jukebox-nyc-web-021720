@@ -22,6 +22,7 @@ def process_user_input(input)
     when "play"
     when "list"
     when "exit"
+      exit_jukebox
     else
   end
 end  
