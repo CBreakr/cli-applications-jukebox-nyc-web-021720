@@ -86,8 +86,10 @@ def find_song_by_number(number, songs)
 end
 
 #
-def find_song_by_name(name, song)
-  
+def find_song_by_name(name, songs)
+  songs.find do |song|
+    song == name
+  end
 end
 
 #
