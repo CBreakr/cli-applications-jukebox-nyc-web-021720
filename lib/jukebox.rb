@@ -16,7 +16,7 @@ def get_user_input
 end
 
 #
-def process_user_input(input)
+def process_user_input(input, songs)
   case input
     when "help"
       help
