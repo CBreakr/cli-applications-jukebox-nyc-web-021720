@@ -27,8 +27,14 @@ def process_main_input(input, songs)
     when "exit"
       exit_jukebox
     else
+      invalid_input
   end
 end  
+
+#
+def invalid_input
+  puts "Invalid input, please try again"
+end
 
 #
 def help
