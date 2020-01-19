@@ -2,7 +2,7 @@
 #
 def run(songs)
   greet_user
-  process_user_input(get_user_input, songs)
+  process_main_input(get_user_input, songs)
 end
 
 #
@@ -16,7 +16,7 @@ def get_user_input
 end
 
 #
-def process_user_input(input, songs)
+def process_main_input(input, songs)
   case input
     when "help"
       help
