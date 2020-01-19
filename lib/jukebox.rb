@@ -11,6 +11,11 @@ def greet_user
 end
 
 #
+def get_user_input
+  gets.chomp
+end
+
+#
 def help
   puts  "I accept the following commands:"
   puts "- help : displays this help message"
