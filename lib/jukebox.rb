@@ -56,7 +56,7 @@ def process_play_input(input, songs)
   if song then
     play_song(song)
   else
-    invalid_play_input
+    invalid_input
   end
 end
 
