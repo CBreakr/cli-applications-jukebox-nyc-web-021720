@@ -67,6 +67,11 @@ end
 
 #
 def play_song(song)
+  puts "Playing #{song}"
+end
+
+#
+def invalid_input
   puts ""
 end
 
