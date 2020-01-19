@@ -19,8 +19,11 @@ end
 def process_user_input(input)
   case input
     when "help"
+      help
     when "play"
+      play
     when "list"
+      list
     when "exit"
       exit_jukebox
     else
