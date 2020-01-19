@@ -58,7 +58,7 @@ end
 
 #
 def process_play_input(input, songs)
-  song = find_song(input, song)
+  song = find_song(input, songs)
 
   if song then
     play_song(song)
