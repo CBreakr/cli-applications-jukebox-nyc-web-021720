@@ -69,8 +69,15 @@ end
 
 #
 def find_song(input, songs)
-  nil
+  number = input.to_i
+  if number then
+    
+  else
+    
+  end
 end
+
+
 
 #
 def play_song(song)
