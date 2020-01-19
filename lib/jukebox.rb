@@ -81,10 +81,10 @@ end
 #
 def find_song_by_number(number, songs)
   if number > 0 && number <= songs.length then
-    puts "we have a match"
-    return songs[number-1]
+    songs[number-1]
+  else
+    nil
   end
-  nil
 end
 
 #
