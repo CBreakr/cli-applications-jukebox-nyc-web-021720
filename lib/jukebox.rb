@@ -17,7 +17,13 @@ end
 
 #
 def process_user_input(input)
-  
+  case input
+    when "help"
+    when "play"
+    when "list"
+    when "exit"
+    else
+  end
 end  
 
 #
