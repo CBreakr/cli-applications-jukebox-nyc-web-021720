@@ -51,6 +51,11 @@ def play_prompt
 end
 
 #
+def process_play_input(input, songs)
+  
+end
+
+#
 def list(songs)
   songs.each_with_index do |song, index|
     puts "#{index+1}. #{song}"
