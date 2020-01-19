@@ -71,6 +71,7 @@ end
 def find_song(input, songs)
   number = input.to_i
   if number then
+    puts "we have a number: #{number}"
     find_song_by_number(number, songs)
   else
     find_song_by_name(input, songs)
