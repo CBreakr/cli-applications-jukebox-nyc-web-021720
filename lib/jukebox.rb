@@ -71,13 +71,21 @@ end
 def find_song(input, songs)
   number = input.to_i
   if number then
-    
+    find_song_by_number(number, songs)
   else
-    
+    find_song_by_name(input, songs)
   end
 end
 
+#
+def find_song_by_number(number, songs)
+  
+end
 
+#
+def find_song_by_name(name, song)
+  
+end
 
 #
 def play_song(song)
