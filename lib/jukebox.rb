@@ -21,9 +21,9 @@ def process_user_input(input, songs)
     when "help"
       help
     when "play"
-      play
+      play(songs)
     when "list"
-      list
+      list(songs)
     when "exit"
       exit_jukebox
     else
