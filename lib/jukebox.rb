@@ -89,7 +89,6 @@ end
 #
 def find_song_by_name(name, songs)
   songs.find do |song|
-    puts song
     song == name
   end
 end
